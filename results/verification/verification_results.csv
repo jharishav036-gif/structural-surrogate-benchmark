@@ -1,0 +1,15 @@
+case,quantity,reference,fem,rel_error,tol,passed
+"cantilever, tip load",tip deflection,0.0008192,0.000819199999980358,2.397698810770708e-11,0.0001,True
+"cantilever, tip load",root moment,80000.0,79999.99999772193,2.8475915314629674e-11,0.0001,True
+"cantilever, uniform load",tip deflection,0.00073728,0.0007372799999813724,2.5265257575488557e-11,0.0001,True
+"cantilever, mid-span load",tip deflection,0.000192,0.00019199999999489504,2.6588364214312488e-11,0.0001,True
+"cantilever, superposition",tip deflection,0.0017484799999999997,0.0017484799999566254,2.480690386622701e-11,0.0001,True
+"cantilever, superposition",root moment,206000.0,205999.99999501283,2.4209583395169777e-11,0.0001,True
+"cantilever, free vibration",first frequency,25.48064708087138,25.480647377777238,1.1652210360102052e-08,0.001,True
+"portal, rigid-beam limit",sway,0.0007119140624999998,0.0007153405954419371,0.0048131272051356415,0.01,True
+"portal, flexible-beam limit",sway,0.002847656249999999,0.0028468327816966784,0.00028917405438969604,0.005,True
+"portal, gravity load",sway (record),,1.8428895833411812e-14,,,True
+two-bar truss,member force (tension),35355.33905932737,35355.33905932737,0.0,1e-12,True
+two-bar truss,load-point deflection,0.00017677669529663688,0.00017677669529663693,3.0665868333667483e-16,1e-06,True
+"Pratt truss, areas x2",member forces unchanged,0.0,0.0,0.0,1e-08,True
+Pratt truss,equilibrium residual,0.0,3.96870415319096e-15,3.96870415319096e-15,1e-08,True

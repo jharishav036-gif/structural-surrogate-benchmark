@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: >-
+  If you use these datasets or this code, please cite the release and
+  the accompanying article.
+title: >-
+  Explainable machine learning surrogates for structural simulation:
+  benchmark datasets and code
+authors:
+  - family-names: Jha
+    given-names: Rishav
+    affiliation: MIT Campus, Rajarshi Janak University, Janakpurdham, Nepal
+  - family-names: Sahani
+    given-names: Suresh Kumar
+    email: sureshsahani54@gmail.com
+    affiliation: MIT Campus, Rajarshi Janak University, Janakpurdham, Nepal
+  - family-names: Sahani
+    given-names: Kameshwar
+    affiliation: Department of Civil Engineering, Kathmandu University, Dhulikhel, Nepal
+version: 1.0.0
+date-released: '2026-10-25'
+license: MIT
+repository-code: 'https://github.com/jharishav036-gif/structural-surrogate-benchmark'
+abstract: >-
+  Parameterized benchmark datasets and the complete analysis code for a
+  study of nine regression models used as surrogates for finite-element
+  structural simulation (cantilever beam, fixed-base portal frame,
+  six-panel Pratt truss). Includes solver verification against
+  closed-form solutions, stratified splits, 10-fold cross-validation,
+  held-out and extrapolation evaluation, SHAP interpretability analysis
+  compared with solver-based sensitivity indices, Friedman and
+  Holm-corrected statistical comparisons, learning curves, a
+  solver-versus-surrogate timing benchmark, and a 100,000-candidate
+  design-screening study with conformal uncertainty intervals.
+keywords:
+  - machine learning
+  - surrogate models
+  - structural analysis
+  - finite element method
+  - SHAP
+  - explainability
+  - benchmark
+# After the Zenodo release exists, replace 10.5281/zenodo.XXXXXXX
+# below with the real concept DOI.
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.XXXXXXX
+    description: Versioned archive of this release

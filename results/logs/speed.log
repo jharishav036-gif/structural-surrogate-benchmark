@@ -1,0 +1,3 @@
+[beam] solver 0.70 ms | surrogate 0.0785 ms (single) / 0.000713 ms (batch) | speed-up 9x / 982x
+[frame] solver 2.84 ms | surrogate 0.0775 ms (single) / 0.000746 ms (batch) | speed-up 37x / 3808x
+[truss] solver 0.72 ms | surrogate 0.0771 ms (single) / 0.000735 ms (batch) | speed-up 9x / 975x

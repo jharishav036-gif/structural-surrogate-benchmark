@@ -1,0 +1,31 @@
+[beam] refit MLP    for tip_deflection_mm  (prep 9.3 s incl. tuning)
+[beam] refit MLP    for max_stress_MPa     (prep 10.1 s incl. tuning)
+[beam] refit MLP    for f1_Hz              (prep 14.1 s incl. tuning)
+[beam] screened 100000 candidates in 0.16 s -> 39431 selected (39.4%)
+[beam] verified 39431 shortlisted designs: precision 0.972
+[beam] recall on 2000-design sample: 0.988 (820 truly feasible)
+[beam] tip_deflection_mm  q90 0.315 (relative) | coverage 0.871 (admissible 0.882) | MAPE on pool 27.9%
+[beam] max_stress_MPa     q90 0.223 (relative) | coverage 0.915 (admissible 0.918) | MAPE on pool 12.2%
+[beam] f1_Hz              q90 0.100 (relative) | coverage 0.867 (admissible 0.880) | MAPE on pool 3.4%
+[beam] solver 0.94 ms/design -> brute-force screen 94 s vs 0.16 s surrogate (580x); surrogate prep 33 s
+[frame] refit MLP    for sway_mm            (prep 6.9 s incl. tuning)
+[frame] refit MLP    for max_stress_MPa     (prep 9.1 s incl. tuning)
+[frame] refit MLP    for f1_Hz              (prep 9.7 s incl. tuning)
+[frame] screened 100000 candidates in 0.26 s -> 37524 selected (37.5%)
+[frame] verified 37524 shortlisted designs: precision 0.956
+[frame] recall on 2000-design sample: 0.945 (795 truly feasible)
+[frame] sway_mm            q90 0.463 (relative) | coverage 0.899 (admissible 0.899) | MAPE on pool 31.0%
+[frame] max_stress_MPa     q90 0.382 (relative) | coverage 0.902 (admissible 0.902) | MAPE on pool 19.4%
+[frame] f1_Hz              q90 0.139 (relative) | coverage 0.925 (admissible 0.925) | MAPE on pool 4.0%
+[frame] solver 2.72 ms/design -> brute-force screen 272 s vs 0.26 s surrogate (1039x); surrogate prep 26 s
+[truss] refit MLP    for mid_deflection_mm  (prep 8.9 s incl. tuning)
+[truss] refit MLP    for max_stress_MPa     (prep 12.1 s incl. tuning)
+[truss] refit SVR    for f1_Hz              (prep 0.3 s incl. tuning)
+[truss] screened 100000 candidates in 0.98 s -> 30819 selected (30.8%)
+[truss] verified 30819 shortlisted designs: precision 0.968
+[truss] recall on 2000-design sample: 0.950 (646 truly feasible)
+[truss] mid_deflection_mm  q90 0.223 (relative) | coverage 0.808 (admissible 0.868) | MAPE on pool 16.3%
+[truss] max_stress_MPa     q90 0.256 (relative) | coverage 0.864 (admissible 0.888) | MAPE on pool 14.2%
+[truss] f1_Hz              q90 0.055 (relative) | coverage 0.859 (admissible 0.887) | MAPE on pool 2.8%
+[truss] solver 0.63 ms/design -> brute-force screen 63 s vs 0.98 s surrogate (64x); surrogate prep 21 s
+screening demonstration complete

@@ -1,0 +1,20 @@
+[beam/tip_deflection_mm] Friedman chi2 = 232.3, p = 9.66e-46 | best by mean rank: MLP (2.26)
+[beam/max_stress_MPa] Friedman chi2 = 189.2, p = 1.20e-36 | best by mean rank: MLP (3.43)
+[beam/f1_Hz] Friedman chi2 = 280.2, p = 6.80e-56 | best by mean rank: CatBoost (2.84)
+[frame/sway_mm] Friedman chi2 = 244.1, p = 3.03e-48 | best by mean rank: MLP (3.17)
+[frame/max_stress_MPa] Friedman chi2 = 113.4, p = 7.75e-21 | best by mean rank: SVR (3.77)
+[frame/f1_Hz] Friedman chi2 = 232.3, p = 9.60e-46 | best by mean rank: MLP (3.25)
+[truss/mid_deflection_mm] Friedman chi2 = 178.0, p = 2.66e-34 | best by mean rank: MLP (3.43)
+[truss/max_stress_MPa] Friedman chi2 = 150.4, p = 1.60e-28 | best by mean rank: CatBoost (3.40)
+[truss/f1_Hz] Friedman chi2 = 252.2, p = 5.96e-50 | best by mean rank: SVR (2.77)
+Holm-corrected comparisons: 61 of 72 significant at alpha = 0.05
+   model  mean_friedman_rank  n_best
+     MLP            3.522222       5
+CatBoost            3.587778       2
+     SVR            3.897778       2
+     XGB            4.371111       0
+    LGBM            4.441111       0
+      RF            5.852222       0
+    Tree            6.302222       0
+     KNN            6.462222       0
+  Linear            6.563333       0

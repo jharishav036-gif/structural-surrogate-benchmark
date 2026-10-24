@@ -1,0 +1,4 @@
+family,n_candidates,n_accepted,acceptance_rate,max_equilibrium_residual
+beam,509,500,0.9823182711198428,
+frame,500,500,1.0,
+truss,586,500,0.8532423208191127,6.450648973637147e-14

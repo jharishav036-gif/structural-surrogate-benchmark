@@ -1,0 +1,14 @@
+[beam] sampling 500 screened designs ...
+[beam] accepted 500/509 candidates (98.2%), 0.5 s
+[beam] extrapolation set: 100 designs from the extended box
+[beam] split: 400 train / 100 test, 10 stratified folds written
+[frame] sampling 500 screened designs ...
+[frame] accepted 500/500 candidates (100.0%), 2.0 s
+[frame] extrapolation set: 100 designs from the extended box
+[frame] split: 400 train / 100 test, 10 stratified folds written
+[truss] sampling 500 screened designs ...
+[truss] max equilibrium residual over accepted records: 6.45e-14
+[truss] accepted 500/586 candidates (85.3%), 0.8 s
+[truss] extrapolation set: 100 designs from the extended box
+[truss] split: 400 train / 100 test, 10 stratified folds written
+datasets complete

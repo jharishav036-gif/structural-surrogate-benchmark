@@ -1,0 +1,64 @@
+{
+  "Linear": {
+    "note": "no hyperparameters to tune"
+  },
+  "KNN": {
+    "n_neighbors": 6,
+    "p": 2,
+    "weights": "distance",
+    "inner_cv_r2": 0.7252782675088069
+  },
+  "SVR": {
+    "C": 31.428808908401084,
+    "epsilon": 0.05,
+    "gamma": 0.05,
+    "inner_cv_r2": 0.909810769060243
+  },
+  "Tree": {
+    "min_samples_leaf": 5,
+    "max_depth": 20,
+    "inner_cv_r2": 0.7917583454458363
+  },
+  "RF": {
+    "n_estimators": 300,
+    "min_samples_leaf": 2,
+    "max_features": 0.5,
+    "max_depth": null,
+    "inner_cv_r2": 0.8884380300693057
+  },
+  "XGB": {
+    "colsample_bytree": 0.8574269294896713,
+    "learning_rate": 0.05407232133324004,
+    "max_depth": 3,
+    "min_child_weight": 5,
+    "n_estimators": 900,
+    "subsample": 0.8199582915145766,
+    "inner_cv_r2": 0.9574749808539587
+  },
+  "LGBM": {
+    "colsample_bytree": 0.8640130838029838,
+    "learning_rate": 0.030611488731000357,
+    "min_child_samples": 20,
+    "n_estimators": 600,
+    "num_leaves": 31,
+    "subsample": 0.8349262400109296,
+    "inner_cv_r2": 0.9529265080856681
+  },
+  "CatBoost": {
+    "depth": 4,
+    "iterations": 400,
+    "l2_leaf_reg": 1,
+    "learning_rate": 0.06981086211584975,
+    "inner_cv_r2": 0.9764691372531988
+  },
+  "MLP": {
+    "alpha": 2.6828750938254374e-05,
+    "batch_size": 32,
+    "hidden_layer_sizes": [
+      64,
+      64
+    ],
+    "learning_rate_init": 0.003,
+    "inner_cv_r2": 0.9864045667303583
+  }
+}
