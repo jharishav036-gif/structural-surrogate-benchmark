@@ -141,12 +141,3 @@ The complete data and code for this study are released under the MIT
 license. Design datasets are plain CSV files documented in
 `data/data_dictionary.md`; every table in `results/` is reproduced by
 the pipeline above. File checksums are listed in `checksums.sha256`.
-
-## Citation
-
-If you use this material, please cite the accompanying article (full
-reference to be inserted upon publication):
-
-> Jha, R., Sahani, S. K. & Sahani, K. Explainable machine learning
-> surrogates for structural simulation: a physics-validated benchmark
-> study. *Scientific Reports* (in preparation).
